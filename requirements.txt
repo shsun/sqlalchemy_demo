@@ -1,0 +1,5 @@
+sqlacodegen
+APScheduler==3.5.1
+PyMySQL
+SQLAlchemy==1.3.20
+ibm_db
