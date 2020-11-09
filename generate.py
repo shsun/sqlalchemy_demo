@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 # -*- encoding: utf-8 -*-
-import os
+import os, sys, datetime
 
 
 def main(p_argv):
@@ -8,7 +8,7 @@ def main(p_argv):
     # cmd = "sqlacodegen --tables account mysql+pymysql://root:123456@192.168.1.14/management >models.py"
 
     # 生成全部模型
-    cmd = "sqlacodegen mysql+pymysql://root:123456@192.168.1.14/management >models.py"
+    cmd = "sqlacodegen mysql+pymysql://root:Welcome@13579@127.0.0.1:3306/shsun >models.py"
     os.system(cmd)
 
     return 0
