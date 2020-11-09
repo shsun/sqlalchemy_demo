@@ -1,6 +1,6 @@
 from flask import jsonify
 from .bp import bp
-from models import User
+from models_mysql_shun import User
 from db import db
 import json
 

@@ -5,10 +5,10 @@ import os, sys, datetime
 
 def main(p_argv):
     # 生成指定模型
-    # cmd = "sqlacodegen --tables account mysql+pymysql://root:123456@192.168.1.14/management >models.py"
+    # cmd = "sqlacodegen --tables account mysql+pymysql://root:123456@192.168.1.14/management >models_mysql_shun.py"
 
     # 生成全部模型
-    cmd = "sqlacodegen mysql+pymysql://root:Welcome@13579@127.0.0.1:3306/shsun >models.py"
+    cmd = "sqlacodegen mysql+pymysql://root:Welcome@13579@127.0.0.1:3306/shsun >models_mysql_shun.py"
     os.system(cmd)
 
     return 0
